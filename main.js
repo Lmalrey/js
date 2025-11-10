@@ -31,6 +31,11 @@
 // console.log(typeof(bol1));
 // console.log(typeof null_var);
 
+
+/**
+ * Ejercicios de JavaScript
+ */
+
 /**
  * 1. Declare two variables, a = 10 and b = 3.
  * Calculate the remainder when a is divided by b and store it
@@ -66,5 +71,70 @@
 // console.log(shouldStayInside);
 
 /**
- * 
+ * 4. Declare a variable counter = 5. Use the post-increment operator (++)
+ * once. What is the value of counter after the operation?
  */
+
+// let counter = 5;
+// counter++;
+// console.log(counter);
+
+/**
+ * 5. A configuration setting is valid if its status is a boolean OR its level
+ * is a number greater than 50. Declare status = null and level = 75. Write a
+ * single expression to check the validity and store the boolean result in
+ * isValidConfig
+ */
+
+// let estatus=null;
+// let level=75;
+// let isValidConfig= typeof estatus=='boolean' && level > 50;
+
+// console.log(isValidConfig);
+
+/**
+ * 6. Calculate the result of the expression: (5 * 4) + (20 / 5) - 3
+ * WITHOUT executing the script.
+ */
+
+// console.log("El resultado de la expresión: (5 * 4) + (20 / 5) - 3 = 21");
+
+/**
+ * 7. Declare numString = "5" and numInt = 5. Compare them first using the
+ * loose equality operator (==) and then using the strict equality operator
+ * (===). Store the results in looseResult and strictResult.
+ */
+
+// let numString= "5";
+// let numInt=5;
+
+// let looseResult= numString==numInt;
+// console.log(looseResult);
+
+// let strictResult= numString===numInt;
+// console.log(strictResult);
+
+/**
+ * 8. Determine the final value of x after the following operations:
+ * let x = 10;
+ * x = x * 2 + 5 % 3;
+ * WITHOUT executing the script.
+ */
+
+// console.log(`
+//   El resultado de realizar las siguientes operaciones:
+//   let x = 10;
+//   x = x * 2 + 5 % 3;
+
+//   x=22;
+//   `);
+
+/**
+ * 9. Determine if an integer year = 2024 is a leap year using only operators.
+ * Other forms of code are not allowed. :)
+ */
+
+  // let year=2024;
+  // isLeepYear= year%4==0;
+
+  // console.log(`¿El año ${year} es año bisiestro? - ${isLeepYear}`);
